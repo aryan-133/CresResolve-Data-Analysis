@@ -1,0 +1,147 @@
+table,column,dtype,num_rows,null_count,null_pct,distinct_count,is_candidate_pk,min_date,max_date,suspicious,duplicate_table_rows
+accounts.csv,account_id,object,30000,0,0.0,30000,True,,,,0
+accounts.csv,borrower_id,object,30000,455,1.52,10943,False,,,,0
+accounts.csv,loan_type,object,30000,0,0.0,5,False,,,,0
+accounts.csv,principal_amount,float64,30000,0,0.0,29996,False,,,,0
+accounts.csv,outstanding_amount,float64,30000,0,0.0,29994,False,,,,0
+accounts.csv,dpd,int64,30000,0,0.0,11,False,,,,0
+accounts.csv,risk_segment,object,30000,0,0.0,4,False,,,,0
+accounts.csv,status,object,30000,0,0.0,4,False,,,,0
+accounts.csv,opened_at,object,30000,0,0.0,29993,False,2024-01-01 00:02:27,2025-11-30 23:52:36,,0
+accounts.csv,timezone,object,30000,0,0.0,3,False,,,,0
+accounts.csv,schema_version,object,30000,0,0.0,3,False,,,,0
+account_status_history.csv,history_id,object,60000,0,0.0,60000,True,,,,0
+account_status_history.csv,account_id,object,60000,0,0.0,25999,False,,,,0
+account_status_history.csv,borrower_id,object,60000,0,0.0,11916,False,,,,0
+account_status_history.csv,event_at,object,60000,0,0.0,59898,False,2026-01-01 00:01:08,2026-08-08 23:50:45,,0
+account_status_history.csv,status,object,60000,0,0.0,7,False,,,,0
+account_status_history.csv,changed_by,object,60000,0,0.0,101,False,,,,0
+account_status_history.csv,source,object,60000,0,0.0,5,False,,,,0
+account_status_history.csv,recorded_at,object,60000,0,0.0,59906,False,2025-12-31 01:26:29,2026-08-09 22:02:27,,0
+agents.csv,agent_id,object,30000,0,0.0,1000,False,,,,0
+agents.csv,employee_code,object,30000,0,0.0,1099,False,,,,0
+agents.csv,agent_name,object,30000,0,0.0,10,False,,,,0
+agents.csv,vendor_id,object,30000,0,0.0,15,False,,,,0
+agents.csv,team,object,30000,0,0.0,5,False,,,,0
+agents.csv,status,object,30000,0,0.0,3,False,,,,0
+agents.csv,joined_at,object,30000,0,0.0,29995,False,2024-01-01 00:10:05,2025-11-30 23:23:30,,0
+agents.csv,updated_at,object,30000,0,0.0,29987,False,2025-01-01 00:57:32,2026-08-03 23:45:38,,0
+agent_sessions.csv,session_id,object,15000,0,0.0,15000,True,,,,0
+agent_sessions.csv,agent_id,object,15000,0,0.0,1000,False,,,,0
+agent_sessions.csv,login_at,object,15000,0,0.0,14996,False,2026-01-01 00:01:57,2026-08-08 23:51:54,,0
+agent_sessions.csv,channel,object,15000,0,0.0,4,False,,,,0
+agent_sessions.csv,device_id,object,15000,0,0.0,1500,False,,,,0
+agent_sessions.csv,timezone,object,15000,0,0.0,2,False,,,,0
+agent_sessions.csv,logout_at,object,15000,0,0.0,14996,False,2026-01-01 04:48:48,2026-08-09 07:50:12,,0
+borrowers.csv,borrower_id,object,30600,0,0.0,11015,False,,,,600
+borrowers.csv,name,object,30600,0,0.0,10,False,,,,600
+borrowers.csv,phone,float64,30600,614,2.01,29395,False,,,,600
+borrowers.csv,email,object,30600,895,2.92,15377,False,,,,600
+borrowers.csv,city,object,30600,0,0.0,10,False,,,,600
+borrowers.csv,created_at,object,30600,0,0.0,29997,False,2025-01-01 00:14:38,2026-08-03 23:37:55,,600
+borrowers.csv,updated_at,object,30600,0,0.0,29991,False,2025-01-01 00:19:40,2026-08-03 23:48:36,,600
+borrowers.csv,state,object,30600,0,0.0,9,False,,,,600
+calls.csv,call_id,object,91350,0,0.0,90000,False,,,,1271
+calls.csv,account_id,object,91350,0,0.0,28408,False,,,,1271
+calls.csv,borrower_id,object,91350,0,0.0,11992,False,,,,1271
+calls.csv,event_at,object,91350,0,0.0,89796,False,2025-12-29 06:52:37,2026-08-12 15:43:05,,1271
+calls.csv,agent_id,object,91350,1827,2.0,1000,False,,,,1271
+calls.csv,campaign_id,object,91350,0,0.0,120,False,,,,1271
+calls.csv,direction,object,91350,0,0.0,2,False,,,,1271
+calls.csv,vendor_id,object,91350,0,0.0,15,False,,,,1271
+calls.csv,call_status,object,91350,0,0.0,5,False,,,,1271
+calls.csv,duration_sec,int64,91350,0,0.0,900,False,,,,1271
+calls.csv,timezone,object,91350,0,0.0,3,False,,,,1271
+call_attempts.csv,attempt_id,object,120000,0,0.0,120000,True,,,,0
+call_attempts.csv,account_id,object,120000,0,0.0,29451,False,,,,0
+call_attempts.csv,borrower_id,object,120000,0,0.0,12000,False,,,,0
+call_attempts.csv,event_at,object,120000,0,0.0,119605,False,2026-01-01 00:01:18,2026-08-08 23:58:40,,0
+call_attempts.csv,call_id,object,120000,0,0.0,66244,False,,,,0
+call_attempts.csv,agent_id,object,120000,0,0.0,1000,False,,,,0
+call_attempts.csv,attempt_no,int64,120000,0,0.0,7,False,,,,0
+call_attempts.csv,vendor_id,object,120000,2400,2.0,15,False,,,,0
+call_attempts.csv,attempt_status,object,120000,0,0.0,5,False,,,,0
+call_dispositions.csv,disposition_id,object,35000,0,0.0,35000,True,,,,0
+call_dispositions.csv,account_id,object,35000,0,0.0,20603,False,,,,0
+call_dispositions.csv,borrower_id,object,35000,0,0.0,11359,False,,,,0
+call_dispositions.csv,event_at,object,35000,0,0.0,34966,False,2026-01-01 00:10:00,2026-08-08 23:50:50,,0
+call_dispositions.csv,call_id,object,35000,0,0.0,28971,False,,,,0
+call_dispositions.csv,agent_id,object,35000,0,0.0,1000,False,,,,0
+call_dispositions.csv,disposition_code,object,35000,0,0.0,9,False,,,,0
+call_dispositions.csv,disposition_version,object,35000,0,0.0,3,False,,,,0
+campaigns.csv,campaign_id,object,120,0,0.0,120,True,,,,0
+campaigns.csv,campaign_name,object,120,0,0.0,5,False,,,,0
+campaigns.csv,channel,object,120,0,0.0,5,False,,,,0
+campaigns.csv,strategy_version,object,120,0,0.0,4,False,,,,0
+campaigns.csv,start_at,object,120,0,0.0,120,False,2026-01-01 09:34:51,2026-05-29 20:31:27,,0
+campaigns.csv,target_definition,object,120,0,0.0,5,False,,,,0
+campaigns.csv,end_at,object,120,0,0.0,120,False,2026-01-16 12:12:50,2026-08-16 18:13:39,,0
+complaints.csv,complaint_id,object,8000,0,0.0,8000,True,,,,0
+complaints.csv,account_id,object,8000,0,0.0,7034,False,,,,0
+complaints.csv,borrower_id,object,8000,0,0.0,5839,False,,,,0
+complaints.csv,event_at,object,8000,0,0.0,7997,False,2026-01-01 00:38:02,2026-08-08 23:35:33,,0
+complaints.csv,complaint_type,object,8000,0,0.0,7,False,,,,0
+complaints.csv,severity,object,8000,0,0.0,4,False,,,,0
+complaints.csv,status,object,8000,0,0.0,4,False,,,,0
+complaints.csv,source,object,8000,0,0.0,5,False,,,,0
+complaints.csv,resolution_at,object,8000,0,0.0,7998,False,2026-01-02 07:36:01,2026-08-26 13:22:27,,0
+daily_targeting.csv,target_id,object,45000,0,0.0,45000,True,,,,0
+daily_targeting.csv,account_id,object,45000,0,0.0,23344,False,,,,0
+daily_targeting.csv,campaign_id,object,45000,0,0.0,120,False,,,,0
+daily_targeting.csv,target_date,object,45000,0,0.0,220,False,2026-01-01 00:00:00,2026-08-08 00:00:00,,0
+daily_targeting.csv,priority,int64,45000,0,0.0,10,False,,,,0
+daily_targeting.csv,recommended_channel,object,45000,0,0.0,4,False,,,,0
+daily_targeting.csv,status,object,45000,0,0.0,4,False,,,,0
+data_dictionary.csv,dataset,object,143,0,0.0,17,False,,,,0
+data_dictionary.csv,column,object,143,0,0.0,80,False,,,,0
+data_dictionary.csv,dtype,object,143,0,0.0,4,False,,,,0
+field_visits.csv,visit_id,object,25000,0,0.0,25000,True,,,,0
+field_visits.csv,account_id,object,25000,0,0.0,16908,False,,,,0
+field_visits.csv,borrower_id,object,25000,0,0.0,10537,False,,,,0
+field_visits.csv,event_at,object,25000,0,0.0,24973,False,2026-01-01 00:07:53,2026-08-08 23:50:03,,0
+field_visits.csv,agent_id,object,25000,0,0.0,1000,False,,,,0
+field_visits.csv,visit_type,object,25000,0,0.0,4,False,,,,0
+field_visits.csv,outcome,object,25000,0,0.0,6,False,,,,0
+field_visits.csv,latitude,float64,25000,0,0.0,25000,False,,,,0
+field_visits.csv,longitude,float64,25000,0,0.0,25000,False,,,,0
+field_visits.csv,scheduled_at,object,25000,250,1.0,24730,False,2025-12-31 05:21:55,2026-08-08 21:50:07,,0
+payments.csv,payment_id,object,25500,0,0.0,25000,False,,,,486
+payments.csv,account_id,object,25500,0,0.0,16934,False,,,,486
+payments.csv,borrower_id,object,25500,0,0.0,10474,False,,,,486
+payments.csv,event_at,object,25500,0,0.0,24984,False,2026-01-01 00:14:40,2026-08-08 23:50:23,,486
+payments.csv,payment_reference,object,25500,382,1.5,20821,False,,,,486
+payments.csv,amount,float64,25500,0,0.0,24979,False,,,,486
+payments.csv,payment_status,object,25500,0,0.0,4,False,,,,486
+payments.csv,payment_method,object,25500,0,0.0,5,False,,,,486
+payments.csv,provider_id,object,25500,0,0.0,15,False,,,,486
+promises_to_pay.csv,ptp_id,object,18000,0,0.0,18000,True,,,,0
+promises_to_pay.csv,account_id,object,18000,0,0.0,13532,False,,,,0
+promises_to_pay.csv,borrower_id,object,18000,0,0.0,9299,False,,,,0
+promises_to_pay.csv,event_at,object,18000,0,0.0,17990,False,2026-01-01 00:24:14,2026-08-08 23:59:33,,0
+promises_to_pay.csv,agent_id,object,18000,0,0.0,1000,False,,,,0
+promises_to_pay.csv,promised_amount,float64,18000,0,0.0,17983,False,,,,0
+promises_to_pay.csv,promised_date,object,18000,0,0.0,17992,False,2026-01-02 04:36:18,2026-09-06 21:23:52,,0
+promises_to_pay.csv,status,object,18000,0,0.0,4,False,,,,0
+promises_to_pay.csv,source,object,18000,0,0.0,4,False,,,,0
+sms_events.csv,sms_event_id,object,45000,0,0.0,45000,True,,,,0
+sms_events.csv,account_id,object,45000,0,0.0,23207,False,,,,0
+sms_events.csv,borrower_id,object,45000,0,0.0,11728,False,,,,0
+sms_events.csv,event_at,object,45000,0,0.0,44949,False,2026-01-01 00:04:16,2026-08-08 23:46:06,,0
+sms_events.csv,message_id,object,45000,0,0.0,27001,False,,,,0
+sms_events.csv,event_type,object,45000,0,0.0,4,False,,,,0
+sms_events.csv,template_code,object,45000,0,0.0,4,False,,,,0
+sms_events.csv,provider_id,object,45000,0,0.0,15,False,,,,0
+vendor_telephony.csv,vendor_id,object,15,0,0.0,15,True,,,,0
+vendor_telephony.csv,vendor_name,object,15,0,0.0,5,False,,,,0
+vendor_telephony.csv,vendor_account_id,object,15,0,0.0,15,True,,,,0
+vendor_telephony.csv,timezone,object,15,0,0.0,2,False,,,,0
+vendor_telephony.csv,status,object,15,0,0.0,2,False,,,,0
+vendor_telephony.csv,schema_version,object,15,0,0.0,3,False,,,,0
+whatsapp_events.csv,whatsapp_event_id,object,60600,0,0.0,60000,False,,,,600
+whatsapp_events.csv,account_id,object,60600,0,0.0,25924,False,,,,600
+whatsapp_events.csv,borrower_id,object,60600,0,0.0,11917,False,,,,600
+whatsapp_events.csv,event_at,object,60600,0,0.0,59892,False,2026-01-01 00:01:49,2026-08-08 23:56:16,,600
+whatsapp_events.csv,message_id,object,60600,0,0.0,34831,False,,,,600
+whatsapp_events.csv,event_type,object,60600,0,0.0,6,False,,,,600
+whatsapp_events.csv,template_code,object,60600,0,0.0,5,False,,,,600
+whatsapp_events.csv,provider_id,object,60600,0,0.0,15,False,,,,600
